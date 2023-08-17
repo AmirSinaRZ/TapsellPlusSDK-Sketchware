@@ -1,5 +1,7 @@
+<div align="center" style="width:100%;display:flex;justify-content:space-between;">
 <img width="32%" src="https://s6.uupload.ir/files/image_3i9b.png" align="center" alt="screenshot" />
 <img width="32%" src="https://play-lh.googleusercontent.com/dOJ9g_OLnzOzqR0JaJXjgpc8Nc7NHtDkgNY5FewfpADjjsNm7ouiV9OMhhD0NOjWD2A" align="center" alt="screenshot" />
+</div>
 
 # کتابخانه تپسل پلاس برای اسکچور پرو
 کتابخانه تپسل پلاس با تمامی تبلیغات ارائه شده توسط تپسل بصورت کامل و جامع برای اسکچور پرو طراحی شده.
@@ -22,7 +24,10 @@ D8 را فعال کنید
 
 کتابخانه androidx یا AppCompat and Design رو فعال کنید.
 
-کتابخانه مربوط به تپسل و تبلیغات را از پوشه کتابخانه دریافت کنید و در مسیر کتابخانه های اسکچور قرار دهید و آن ها را فعال کنید.
+کتابخانه مربوط به تپسل و تبلیغات را از لینک زیر دریافت کنید و در مسیر کتابخانه های اسکچور قرار دهید و آن ها را فعال کنید.
+
+[دانلود کتابخانه ها](https://www.uplooder.net/files/c3bebee7b7e1728c4da6652ee41950bc/Download.zip.html)
+
 مسیر کتابخانه ها به صورت زیر است :
 
 `/storage/emulated/0/.sketchware/libs/local_libs/`
@@ -31,15 +36,13 @@ D8 را فعال کنید
 تغییرات زیر را در Android Manifest اعمال کنید:
 
 اضافه کردن درخواست های زیر
-
 ```xml
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 	<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-	```
-	
+```
 کد های زیر را در App Component قرار دهید
 
 ```xml
